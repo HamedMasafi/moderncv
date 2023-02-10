@@ -1,9 +1,9 @@
 name: Build template
 
 on:
-  push:
-    branches:
-      - master
+#  push:
+#    branches:
+#      - master
   pull_request:
   registry_package:
 
