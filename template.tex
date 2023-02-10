@@ -65,16 +65,16 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\InputIfFileExists{data/education}
+\input{data/education}
 
 \section{Master thesis}
 \cvitem{title}{\emph{Title}}
 \cvitem{supervisors}{Supervisors}
 \cvitem{description}{Short thesis abstract}
 
-% \InputIfFileExists{data/experience}
-\InputIfFileExists{data/languages}
-\InputIfFileExists{data/computer_skills}
+\input{data/experience}
+\input{data/languages}
+\input{data/computer_skills}
 
 \section{Skill matrix}
 \cvitem{Skill matrix}{Alternatively, provide a skill matrix to show off your skills}
@@ -129,10 +129,10 @@
 %% \cvskill{<0-5>} command
 % \cvitem{\textbackslash{cvskill}:}{Skills can be visually expressed by the \textbackslash{cvskill} command, e.g. \cvskill{2}}
 
-\InputIfFileExists{data/interests}
-\InputIfFileExists{data/extra1}
-\InputIfFileExists{data/extra2}
-\InputIfFileExists{data/references}
+\input{data/interests}
+\input{data/extra1}
+\input{data/extra2}
+\input{data/references}
 
 
 % Publications from a BibTeX file without multibib
