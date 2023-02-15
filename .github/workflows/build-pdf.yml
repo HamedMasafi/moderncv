@@ -41,6 +41,5 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: template.pdf
-          asset_name: mything
-          tag: hamed-masafi-${{ github.ref }}.pdf
+          asset_name: hamed-masafi-${{ github.ref }}.pdf
           overwrite: true
